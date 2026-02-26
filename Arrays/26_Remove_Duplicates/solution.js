@@ -1,6 +1,5 @@
 // Final Code (Javascript)
 
-```javascript
 var removeDuplicates = function(nums) {
     let x = 0;
 
@@ -13,4 +12,3 @@ var removeDuplicates = function(nums) {
 
     return x + 1;
 };
-```
