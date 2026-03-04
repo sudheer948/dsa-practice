@@ -94,3 +94,27 @@ Continue until one pointer finishes.
 Final array:
 
 [1,2,2,3,5,6]
+
+## Time Complexity
+
+O(m + n)
+
+Each element is processed once.
+
+---
+
+## Space Complexity
+
+O(1)
+
+The merge happens in-place without extra space.
+
+---
+
+## Key Insight
+
+When merging in-place and extra space exists at the end:
+
+Fill the array from the back.
+
+This avoids overwriting elements.
