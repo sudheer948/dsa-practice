@@ -54,4 +54,4 @@ MyLinkedList.prototype.deleteAtIndex = function (index) {
     curr.next = curr.next.next;
   }
   this.size--;
-};
+}; 
