@@ -7,5 +7,5 @@ var deleteDuplicates = function(head) {
             curr = curr.next;
         }
     }
-    return head;
+    return head;    
 };
