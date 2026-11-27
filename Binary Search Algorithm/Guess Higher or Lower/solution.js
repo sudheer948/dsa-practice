@@ -13,4 +13,3 @@ var guessNumber = function(n) {
         }
     }
 }; 
-     
